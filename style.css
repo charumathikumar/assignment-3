@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+ }
+ .hero{
+     height: 100vh; 
+     width: 100%;
+     background-image: url(./image/image4.jpg);
+     background-size: content;
+     background-position: center;
+ }
+ .logo{
+     color:black;
+     font-size: 35px;
+     letter-spacing: 1px;
+     cursor: pointer;
+ }
+ span{
+     color: darkblue;
+ }
+ .nav{ 
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding-top: 45px;
+     padding-left: 8%;
+     padding-right: 8%;
+ }
+ 
+ ul li{
+     display: inline-block;
+     padding: 10px 30px;
+ }
+ 
+ ul li a{
+     color: rgb(12, 12, 12);
+     text-decoration: none;
+     font-size: 20px;
+     font-weight: bold;
+ }
+ ul li a:hover{
+    color: darkblue;
+ }
+ .btn{
+    background-color: darkblue;
+     color:white;
+     text-decoration: none;
+     border: 2px solid transparent;
+     font-weight: 10px;
+     padding: 10px 25px;
+     border-radius: 30px;
+     transition: transform .6s;
+ }
+ .btn:hover{
+     transform: scale(1.1);
+ }
+ .content{
+     position: absolute;
+     top: 25%;
+     left: 8%;
+ }
+ h1{
+     color: black;
+     margin: 20px 0 20px;
+     font-size: 50px;
+ }
+ h3{
+     color:black;
+     font-size: 25px;
+     margin-bottom: 50px;
+ }
+ h4{
+     color: black;
+     font-size: 30px;
+     letter-spacing: 2px;
+ }
+ .newsletter form{
+     width: 400px;
+     max-width: 100%;
+     position: relative;
+ }
+ .newsletter form input:first-child {
+   width: 100%;
+   display: inline-block;
+   padding: 14px 130px 14px 15px;
+   border: 2px solid darkblue;
+   border-radius: 30px;
+ }
+ .newsletter form input:last-child {
+     position: absolute;
+     display: inline-block;
+     border: none;
+     border-radius: 30px;
+     padding: 10px 30px;
+     background-color: darkblue;
+     color: white;
+     top: 6px;
+     right: 6px;
+ }
+
+ .icons{
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.fa-twitter{
+    color:skyblue;
+}
+.fa-facebook-f{
+    color:dodgerblue;
+    padding-left:10px;
+}
+.fa-youtube{
+    color:red;
+    padding-left:10px;
+
+}
+.fa-linkedin{
+    color:blue;
+    padding-left:10px;
+
+}
